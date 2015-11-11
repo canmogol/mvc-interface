@@ -20,7 +20,7 @@ public class AddressView extends SwingInternalFrame {
         // set dimensions and location
         super(250, 200, 540 + (count * 300), 10);
         setTitle("Address View #" + count);
-        setLocation(430, 10 + (count * 200));
+        setLocation(430, 10 + (count * 10));
         setId(count);
         count++;
 
